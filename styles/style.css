@@ -22,6 +22,15 @@ body {
     margin: 0;
 }
 
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
 .canvas {
     width: 500px;
     height: 500px;
