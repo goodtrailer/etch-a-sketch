@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: whitesmoke;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title {
+    margin: 0;
+}
+
+.canvas {
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 4px lightgray;
+    margin-bottom: 10px;
+}
+
+.canvas .cell {
+    width: auto;
+    aspect-ratio: 1;
+
+    background-color: white;
+}
+
+.options-container {
+    width: 400px;
+    font-size: large;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-container * {
+    font-size: inherit;
+}
+
+.size-container,
+.rainbow-container {
+    display: flex;
+    gap: 10px;
+}
+
+.size-container input {
+    width: 6ch;
+}
